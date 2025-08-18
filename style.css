@@ -1,0 +1,60 @@
+:root {
+
+    --website-name-color: #afa8ba;
+}
+
+
+body {
+
+    background-image: url('./images/job_cover.png');
+    background-size: cover;
+    background-repeat: repeat;
+    height: 950px;
+    width: 100%;
+}
+
+
+.website-name {
+    margin-top: 30px;
+    color: var(--website-name-color);
+}
+
+.nav-home-reg {
+    width: 40%;
+    /* border: 2px solid red; */
+    margin-left: 490px;
+}
+
+.login-form {
+
+    width: 30%;
+    height: 300px;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175, 188, 200);
+    box-shadow: 5px 5px 5px black;
+}
+
+.candidate-form{
+
+    width: 50%;
+    height: 1105px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175, 188, 200);
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.employer-form{
+     width: 50%;
+    height: 1110px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175, 188, 200);
+    box-shadow: 5px 5px 5px black;
+}
+
