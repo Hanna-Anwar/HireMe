@@ -26,7 +26,18 @@ body {
 
 .login-form {
 
-    width: 30%;
+    width: 36%;
+    height: 450px;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175, 188, 200);
+    box-shadow: 5px 5px 5px black;
+}
+
+.signup-form {
+
+    width: 36%;
     height: 300px;
     margin-top: 93px;
     margin-left: auto;
@@ -60,5 +71,21 @@ body {
 .aside{
 
     background-color: #0046FF;
-    
+
 }
+
+
+.signout{
+
+  margin-top: 60px;  
+
+}
+
+.signedout-btn{
+
+    margin-left: 160px;
+}
+
+/* .smily{
+    margin-left: 190px;
+} */
