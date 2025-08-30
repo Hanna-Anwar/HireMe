@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>company_details</title>
+    <title>job listing</title>
     <link rel="stylesheet" href="./style.css">
 
     <!-- bs cdn -->
@@ -66,7 +66,7 @@
             <div class="border border-dark bg-primary">
                 <div class="card mb-3" style="width: 10rem; height: 3rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Dashboard</h5>
+                        <h5 class="card-title"><a href="./employer_dashboard.html">Dashboard</a></h5>
 
 
                     </div>
@@ -74,14 +74,20 @@
 
                 <div class="  mt-3">
                     <!-- <div class="card-body "> -->
-                    <a href="#id_profile" class=" w-100 h-75 p-3 text-light">Profile</a>
+                    <a href="./c_applicant.html" class=" w-100 h-75 p-3 text-light">Applicants</a>
+                    <!-- </div> -->
+                </div>
+
+                <div class="  mt-3">
+                    <!-- <div class="card-body "> -->
+                    <a href="./job_listing.html" class=" w-100 h-75 p-3 text-light">Job Listing</a>
                     <!-- </div> -->
                 </div>
 
 
                 <div class=" mt-3">
                     <!-- <div class="card-body "> -->
-                    <a href="#" class=" h-75 w-100 p-3 text-light">Posted Job</a>
+                    <a href="./company_profile.html" class=" h-75 w-100 p-3 text-light">Profile</a>
                     <!-- </div> -->
                 </div>
 
@@ -92,76 +98,51 @@
             <!-- main sertion starts -->
 
 
-            <div class="container text-center " id="id_profile">
+            <div class="container " id="id_profile">
 
                 <div class="contact-details">
-                    <div class="border border-danger">
-                        <h3 class="mt-3">Company Profile </h3>
-                        <form>
-                            <div class="row">
+                    <div class="border ">
+                        <h3 class="mt-3 text-center">Add New Job Here </h3>
 
-                                <div class="mb-3 col-md-6 ">
-                                    <img class="w-50 " src="./images/tech_innovate_soln.png" alt="">
+                                <form>
+                                    
+                                    <div class="mb-3">
+                                        <label for="" class="fw-bolder">Job Title</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1">
+                                        
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label fw-bolder">Job Type</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
 
-                                </div>
 
-                            </div>
+                                     <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label fw-bolder">Location</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
 
-                            <div class="row">
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">Company</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label fw-bolder">Job Description</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
 
-                                </div>
-
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">About</label>
-                                    <textarea name="" class="form-control" id="" placeholder="Type here"></textarea>
-                                </div>
-
-                            </div>
-
-                        </form>
-                    </div>
-
-                </div>
-                <div class="contact-details">
-                    <div class="border border-danger">
-                        <h3 class="mt-3">Contact Information</h3>
-                        <form>
-                            <div class="row">
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-
-                                </div>
-
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">phone no</label>
-                                    <input type="number" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-
-                                </div>
-                                <div class="mb-3 col-md-6 ">
-                                    <button type="submit" class="btn btn-primary">Save profile</button>
-                                </div>
+                                    <button type="submit" class="btn btn-primary">Add job</button>
+                                </form>
 
                             </div>
-                        </form>
-
+                        </div>
                     </div>
                 </div>
+
 
             </div>
+
+
+            <!-- main sertion end -->
+
+
+
         </div>
-
-        <!-- main sertion end -->
-
-
-
-    </div>
 </body>
 
 </html>
