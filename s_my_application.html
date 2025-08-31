@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>company_details_adding_or_editig</title>
+    <title>My applications</title>
     <link rel="stylesheet" href="./style.css">
 
     <!-- bs cdn -->
@@ -48,7 +48,7 @@
                     <div class=" nav-home-reg">
                         <div class="navbar-nav ms-auto">
                             <a class="nav-link active text-light" aria-current="page"
-                                href="./employer_dashboard.html">Home</a>
+                                href="./candidate_dashboard.html">Home</a>
                             <!-- <a class="nav-link text-light" href="./candidate_reg_form.html">Candidate</a> -->
                             <a class="nav-link text-light" href="signout.html">Logout</a>
                         </div>
@@ -66,7 +66,7 @@
             <div class="border border-dark bg-primary">
                 <div class="card mb-3" style="width: 10rem; height: 3rem;">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="./employer_dashboard.html">Dashboard</a></h5>
+                        <h5 class="card-title"><a href="./candidate_dashboard.html">Dashboard</a></h5>
 
 
                     </div>
@@ -74,16 +74,16 @@
 
                 <div class="  mt-3">
                     <!-- <div class="card-body "> -->
-                    <a href="./company_profile.html" class=" w-100 h-75 p-3 text-light">Profile</a>
+                    <a href="./s_profile.html" class=" w-100 h-75 p-3 text-light">My Profile</a>
                     <!-- </div> -->
                 </div>
-
-
-                <div class=" mt-3">
+                <div class="  mt-3">
                     <!-- <div class="card-body "> -->
-                    <a href="./job_listing.html" class=" h-75 w-100 p-3 text-light">Job List</a>
+                    <a href="./s_job_list.html" class=" w-100 h-75 p-3 text-light">Job List</a>
                     <!-- </div> -->
                 </div>
+
+
 
             </div>
 
@@ -95,74 +95,76 @@
             <div class="container text-center " id="id_profile">
 
                 <div class="contact-details">
-                    <div class="border ">
-                        <h3 class="mt-3">Company Profile </h3>
-                        <form>
-                            <div class="row">
+                    <div>
+                        <h3 class="mt-3">My Applications</h3>
 
-                                <div class="mb-3 col-md-6 ">
-                                    <!-- <img class="w-50 " src="./images/tech_innovate_soln.png" alt=""> -->
-                                     <input class="mt-5" type="file">
+                      
 
-                                </div>
+                        <table class="table tab mt-5">
+                            <thead>
+                                <tr>
 
-                            </div>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Company</th>
+                                    <th scope="col">Status</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
 
-                            <div class="row">
-                                <div class="mb-3 col-md-6 mt-4 ">
-                                    <label for="exampleInputEmail1" class="form-label">Company</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
+                                    <td>software Developer</td>
+                                    <td>TCS</td>
+                                    <td>Applied</td>
+                                    
+                                   
+                                </tr>
+                                <tr>
 
-                                </div>
+                                    <td>ML-engineer</td>
+                                    <td>Amazon</td>
+                                    <td>Rejected</td>
+                                    
+                                    
+                                </tr>
+                                <tr>
 
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">About</label>
-                                    <textarea name="" class="form-control" id="" placeholder="Type here"></textarea>
-                                </div>
+                                    <td>Testing and QA</td>
+                                    <td>EY</td>
+                                    <td>Applied</td>
+                                    
+                                </tr>
 
-                            </div>
+                               <tr>
 
-                        </form>
+                                    <td>HR</td>
+                                    <td>Infosys</td>
+                                    <td>Applied</td>
+                                    
+                                </tr>
+
+                                <tr>
+
+                                    <td> Finance</td>
+                                    <td>Buzzworld</td>
+                                    <td>Rejected</td>
+                                    
+                                </tr>
+
+                            </tbody>
+                        </table>
                     </div>
-
                 </div>
-                <div class="contact-details">
-                    <div class="border ">
-                        <h3 class="mt-3">Contact Information</h3>
-                        <form>
-                            <div class="row">
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
 
-                                </div>
-
-                                <div class="mb-3 col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">phone no</label>
-                                    <input type="number" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
-
-                                </div>
-                                <div class="mb-3 col-md-6 ">
-                                    <button type="submit" class="btn btn-primary"><a class="text-light" href="./company_profile.html">Save profile</a></button>
-                                </div>
-
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
 
             </div>
+
+
+            <!-- main sertion end -->
+
+
+
         </div>
-
-        <!-- main sertion end -->
-
-
-
-    </div>
 </body>
 
 </html>
